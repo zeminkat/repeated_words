@@ -14,7 +14,7 @@ edatlar = ['a', 'acaba', 'altında', 'anında', 'aşağıda', 'başında', 'belk
 
 
 kaynak="ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ";hedef="abcçdefgğhıijklmnoöprsştuüvyz";translator=str.maketrans(kaynak,hedef)
-path=r"C:\Users\Sedat\PycharmProjects\pythonProject\CTRL+F Mantığı\tarama.txt"
+path=r"..\\taranacak.txt"
 sozluk={};liste=[];liste2=[];siralama=list()
 with open(path,"r",encoding="UTF-8") as dosya:
 
